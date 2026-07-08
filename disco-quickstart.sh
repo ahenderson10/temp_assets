@@ -26,7 +26,7 @@ fi
 # Placeholder
 if [ ! -d samples_V500_${COMP}_${VER} ]; then
 	if [ ! -f samples_V500_${COMP}_${VER}.zip ]; then
-		wget --no-check-certificate https://github.com/ahenderson10/temp_assets/blob/main/samples_V500_NCOMP_3.1.zip ~
+		wget --no-check-certificate https://raw.githubusercontent.com/ahenderson10/temp_assets/refs/heads/main/samples_V500_NCOMP_3.1.zip ~
 	fi
 	unzip samples_V500_${COMP}_${VER}.zip -d ~
 fi
