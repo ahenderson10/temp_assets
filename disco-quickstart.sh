@@ -1,17 +1,13 @@
 VER="${1:-3.1}"
 COMP="${2:-NCOMP}"
 YOCTO=6.6.51-linux4microchip+fpga-2024.09
-
 # In Progress
-
 #if [[ $(uname -r) != $YOCTO ]]; then
 	#echo "Improper Yocto Version detected, VectorBlox demo might not function as intended."
 	#echo "Yocto Version: $YOCTO required"
 	# echo "Please download at https://github.com/polarfire-soc/meta-polarfire-soc-yocto-bsp/releases/download/v2023.02.1/core-image-minimal-dev-mpfs-video-kit-20230328105837.rootfs.wic.gz"
 	#exit
 #fi
-
-
 # Check that libjpeg is installed, if not install
 if [ $(ls /usr/include/jpeglib.h) != "/usr/include/jpeglib.h" ]; then
 	mkdir -p /tmp/build && cd /tmp/build
