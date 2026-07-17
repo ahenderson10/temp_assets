@@ -41,7 +41,7 @@ cd ~/VectorBlox-SDK-release-v$VER/example/soc-c
 if [ ! -f run-model ]; then
     make clean
     make kit=discovery
-    make overlay
+    make overlay || true
 fi
 
 if [ -f run-model ]; then
