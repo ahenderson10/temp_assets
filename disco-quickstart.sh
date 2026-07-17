@@ -15,7 +15,7 @@ YOCTO=6.6.51-linux4microchip+fpga-2024.09
 # Check that libjpeg is installed, if not install
 if [ $(ls /usr/include/jpeglib.h) != "/usr/include/jpeglib.h" ]; then
 	mkdir -p /tmp/build && cd /tmp/build
-    wget https://ijg.org/files/jpegsrc.v9e.tar.gz
+    wget --no-check-certificate https://ijg.org/files/jpegsrc.v9e.tar.gz
     tar xf jpegsrc.v9*.tar.gz
     cd jpeg-9*
     ./configure --prefix=/usr
