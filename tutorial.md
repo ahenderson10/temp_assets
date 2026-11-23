@@ -45,7 +45,9 @@ To run a tutorial script, change into the model's tutorial directory and run:
 | ultralytics | [yolov8n-pose_512x288_split](ultralytics/yolov8n-pose_512x288_split/yolov8n-pose_512x288_split.sh) | [288, 512, 3] | 22.478 | pose detection | Pose Detection |  |  |
 | ultralytics | [yolov8n-seg](ultralytics/yolov8n-seg/yolov8n-seg.sh) | [640, 640, 3] | 72.522 | instance segmentation |  |  |  |
 | ultralytics | [yolov9t](ultralytics/yolov9t/yolov9t.sh) | [640, 640, 3] | 67.155 | object detection | mAP⁵⁰⁻⁹⁵ | 37.88 | 38.2 |
-| vectorblox | [yolov9s-spn](../tutorials/vectorblox/yolov9s-spn/yolov9s-spn.sh) | [512, 768, 3] | 216.766 | 6d pose |  |  |  |
+| ultralytics | [yolo11n_sym](ultralytics/yolo11n_sym/yolo11n_sym.sh) | [640, 640, 3] | 70.54 | object detection | mAP⁵⁰⁻⁹⁵ | 39.02 | 38.85 |
+| ultralytics | [yolo26n_sym](ultralytics/yolo26n_sym/yolo26n_sym.sh) | [640, 640, 3] | 80.967 | object detection | mAP⁵⁰⁻⁹⁵ | 40.72 | 41.11 |
+| vectorblox | [yolov9s-spn](vectorblox/yolov9s-spn/yolov9s-spn.sh) | [512, 768, 3] | 216.766 | 6d pose |  |  |  |
 
 
 ## Compression
