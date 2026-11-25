@@ -1,4 +1,4 @@
-# Tutorial Metrics
+# Tutorial Metrics testing
 
 Below is a list of tutorials included with the VectorBlox SDK. Runtime in milliseconds (ms) measured on [PolarFire SoC Video Kit](https://github.com/Microchip-Vectorblox/VectorBlox-SoC-Video-Kit-Demo). Accuracy measured over 1000 samples.
 
